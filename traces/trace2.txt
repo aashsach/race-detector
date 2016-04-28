@@ -1,0 +1,5 @@
+1: THREADINIT(t1)
+2: FORK(t1, t2)
+3: LOCK(t1, lck1)
+4: READ(t1, obj1)
+	5: LOCK(t2, lck1)

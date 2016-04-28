@@ -1,0 +1,5 @@
+1: THREADINIT(t1) 
+2: FORK(t1, t2)
+3: THREADINIT(t2)
+4: JOIN(t1, t2)
+5: THREADEXIT(t2)
